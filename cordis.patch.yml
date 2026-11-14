@@ -1,0 +1,10 @@
+# dsh-html-gallery bundle patch
+# HTML Gallery: a host half (scans local HTML + same-origin file routes)
+# and a client half (sidebar icon + central gallery panel).
+- insert:
+    - id: html-gallery
+      name: '@local/dsh-html-gallery'
+      config:
+        # Optional extra roots. Leave empty to follow DSH workspaces automatically.
+        roots: []
+        excludeDirs: []

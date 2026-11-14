@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="HTML Gallery">
+  <defs>
+    <linearGradient id="hg-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4c7dff"/>
+      <stop offset="1" stop-color="#2d55d8"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#hg-bg)"/>
+  <rect x="12" y="15" width="40" height="34" rx="7" fill="#ffffff" opacity="0.97"/>
+  <path d="M12 22a7 7 0 0 1 7-7h26a7 7 0 0 1 7 7v1H12z" fill="#dbe4ff"/>
+  <circle cx="18.2" cy="19.5" r="1.7" fill="#6f8df5"/>
+  <circle cx="23.4" cy="19.5" r="1.7" fill="#9db1f8"/>
+  <rect x="12" y="25" width="7" height="24" rx="0" fill="#eef2ff"/>
+  <path d="M22 32l-4.2 4.4L22 40.8" fill="none" stroke="#2d55d8" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M42 32l4.2 4.4L42 40.8" fill="none" stroke="#2d55d8" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M35.6 29.4l-4.4 13.2" fill="none" stroke="#7f9cf7" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="46" cy="45" r="6" fill="#ffb648"/>
+  <path d="M43.6 45h4.8M46 42.6v4.8" stroke="#5a3700" stroke-width="1.6" stroke-linecap="round"/>
+</svg>

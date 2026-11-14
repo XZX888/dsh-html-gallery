@@ -1,0 +1,56 @@
+{
+  "name": "@local/dsh-html-gallery",
+  "version": "0.2.0",
+  "private": true,
+  "description": "HTML Gallery: automatically collects HTML pages from DSH workspaces and custom folders, groups them by project, and opens them in a collapsible sidebar.",
+  "type": "module",
+  "main": "lib/index.js",
+  "scripts": {
+    "check": "node --check lib/index.js && node --check lib/client.js",
+    "test": "node tests/category.test.mjs && node tests/workspace.test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XZX888/dsh-html-gallery.git"
+  },
+  "homepage": "https://github.com/XZX888/dsh-html-gallery#readme",
+  "bugs": {
+    "url": "https://github.com/XZX888/dsh-html-gallery/issues"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "plugin",
+    "html",
+    "gallery"
+  ],
+  "author": "XZX888",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "lib",
+    "locale",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-layout"
+      ]
+    },
+    "category": "Productivity"
+  },
+  "license": "MIT"
+}
